@@ -43,8 +43,8 @@ A) Stop, you're hurting my peelings.
 ## Construction
 
 ### Printed Parts
-- [ ] 1x split_a.stl
-- [ ] 1x split_b.stl
+- [ ] 1x split_a.stl - [https://github.com/dbostian/banana/blob/main/stls/split_a.stl](https://github.com/dbostian/banana/blob/main/stls/split_a.stl)
+- [ ] 1x split_b.stl - [https://github.com/dbostian/banana/blob/main/stls/split_b.stl](https://github.com/dbostian/banana/blob/main/stls/split_b.stl)
 
 ### Hardware
 - [ ] 8x Switches - Cherry MX or compatible.
