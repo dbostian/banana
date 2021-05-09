@@ -66,7 +66,7 @@ A) Stop, you're hurting my peelings.
 ### Printing Notes
 Printed in PLA at 0.3 (or finer) layer height. Both halves need support.
 
-### Assembly + Wirirng
+### Assembly + Wiring
 Install heatset inserts and switches into the top half. There are many ways to wire a macropad. Since this one has only 8 switches, I wired one pin of each directly to individual input pins on the Pro Micro. The other leg of each switch is wired to ground. Diodes are not needed in this case.
 
 ![example](https://i.imgur.com/YY8CSGe.jpg)
