@@ -73,7 +73,7 @@ Install heatset inserts and switches into the top half. There are many ways to w
 
 
 ### Firmware
-The included Arduino sketch is a starting point for a simple macropad. It can be flashed to your microcontroller with the Arduino IDE. You'll probably want to edit this section of the code to send a different strings:
+The included Arduino sketch is a starting point for a simple macropad. It can be flashed to your microcontroller with the Arduino IDE - [https://www.arduino.cc/](https://www.arduino.cc/). You'll want to edit this section of the code to send a different strings or keystrokes:
 
 
 ```
