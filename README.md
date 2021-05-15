@@ -67,13 +67,13 @@ A) Stop, you're hurting my peelings.
 Printed in PLA at 0.3 (or finer) layer height. Both halves need support.
 
 ### Assembly + Wiring
-Install heatset inserts and switches into the top half. There are many ways to wire a macropad. Since this one has only 8 switches, I wired one leg of each directly to an input pin on the Pro Micro. The other leg of each switch is wired to ground. Diodes are not needed in this case.
+Install heatset inserts and switches into the top half. There are many ways to wire a macropad. Since this one has only 8 switches, I wired one leg of each directly to an input pin on the Pro Micro. I used pins 10, 16, 14, 15, 18 (A0), 19 (A1), 20 (A2), and 21 (A3). The other leg of each switch is wired to ground. Diodes are not needed in this case.
 
 ![example](https://i.imgur.com/YY8CSGe.jpg)
 
 
 ### Firmware
-The included Arduino sketch is a starting point for a simple macropad. It can be flashed to your microcontroller with the Arduino IDE - [https://www.arduino.cc/](https://www.arduino.cc/). You'll want to edit this section of the code to send a different strings or keystrokes:
+The included Arduino sketch is a starting point for a simple macropad. It can be flashed to your microcontroller with the Arduino IDE - [https://www.arduino.cc/](https://www.arduino.cc/). You'll want to edit this section of the code to send a different strings or keystrokes (see the Arduino Keyboard reference for more details - [https://www.arduino.cc/reference/en/language/functions/usb/keyboard/](https://www.arduino.cc/reference/en/language/functions/usb/keyboard/)):
 
 
 ```
